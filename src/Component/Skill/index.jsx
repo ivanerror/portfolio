@@ -114,7 +114,7 @@ const ListSkill = ({ skillList }) => {
               </div>
             </div>
           </div>
-          <div className="flex flex-col mt-2 pl-10">
+          <div className="flex flex-col mt-2">
             {skillGroup.list.map((skill) => (
               <ListItemSkill imgPath={skill.imgPath} title={skill.title} />
             ))}
